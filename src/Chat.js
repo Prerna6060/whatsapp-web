@@ -59,7 +59,7 @@ function Chat() {
         <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
 
         <div className="chat_headerInfo">
-          <h3>{roomName}</h3>
+          <h4>{roomName}</h4>
           <p>
             last seen{" "}
             {new Date(
